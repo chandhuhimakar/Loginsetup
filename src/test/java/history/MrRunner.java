@@ -7,7 +7,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="MyFeatures",glue="history",plugin= {"json:target/cucumber.json"})
+@CucumberOptions(features="MyFeatures",glue="history",plugin= {"json:target/cucuber.json"})
 
 public class MrRunner {
 	
